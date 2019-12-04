@@ -12,15 +12,15 @@ const obj = {
   }
 }
 
-const lensObj = po(obj)
+const pathObj = po(obj)
 
-const bPath = lensObj(['a', 'b'])
-const cPath = lensObj(['a', 'c'])
-const dPath = lensObj(['a', 'c', 'd'])
+const bPath = pathObj(['a', 'b'])
+const cPath = pathObj(['a', 'c'])
+const dPath = pathObj(['a', 'c', 'd'])
 
-bLens(v => v + 1) // { a: { b: 3, c: { d: 4 } } }
-cLens(v => ({...v, f: 8})) // { a: { b: 3, c: { d: 4, f: 8 } } }
-dLens(10) // { a: { b: 3, c: { d: 10, f: 8 } } }
+bPath(v => v + 1) // { a: { b: 3, c: { d: 4 } } }
+cPath(v => ({...v, f: 8})) // { a: { b: 3, c: { d: 4, f: 8 } } }
+dPath(10) // { a: { b: 3, c: { d: 10, f: 8 } } }
 ```
 - Redux
 ```javascript
@@ -31,15 +31,15 @@ const state = {
   }
 }
 
-const lensState(state)
-const lensName = lensState(['app', 'name'])
-const lensAge = lensState(['app', 'age'])
+const pathState(state)
+const pathName = pathState(['app', 'name'])
+const pathAge = pathState(['app', 'age'])
 
 // reducer
-(state, {lens, payload}) => lens(payload)
+(state, {path, payload}) => path(payload)
 
 dispatch({
-  lens: lensName,
+  path: pathName,
   payload: 'jack'
 })
 /**
@@ -51,8 +51,8 @@ state = {
 }
 */
 dispatch({
-  lens: lensName,
-  payload: state.app.age + 1
+  path: pathAge,
+  payload: pathAge.getValue() + 1
 })
 /**
 state = {
@@ -62,11 +62,36 @@ state = {
   } 
 }
 */
+dispatch({
+  path: pathAge,
+  payload: pathAge.getValue() + 1
+})
+/**
+state = {
+  app: {
+    name: 'jack',
+    age: 20
+  } 
+}
+*/
 ```
 # API
 ```javascript
-// type 1
-<State = any>(obj: State): (paths: string[]): (mapFn: (a: any) => any | any): State
-// type 2
-<State = any>(obj: State): (paths: string[], mapFn: (a: any) => any | any): State
+// - Config default: {defaultPath: [], mutable: true}
+const state = {
+  app: {
+    name: 'puppy',
+    age: 18
+  }
+}
+const path = Po(state, {defaultPath: ['app'], mutable: false})
+// if not set default path, equal path(['app', 'age']) 👇
+const pathAge = path(['age'])
+// if config mutable is false, inner state is immutable
+pathAge(
+  pathAge.getValue() + 1 // path can use path.getValue to get path current value
+)
+// {...xxx, age: 19}
+pathAge(pathAge.getValue() + 1) // {...xxx, age: 19}
+
 ```
