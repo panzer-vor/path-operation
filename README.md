@@ -93,5 +93,6 @@ pathAge(
 )
 // {...xxx, age: 19}
 pathAge(pathAge.getValue() + 1) // {...xxx, age: 19}
-
 ```
+# More Usage
+[Test Use Case Link](https://github.com/panzer-vor/path-operation/blob/master/test/index.spec.ts)
