@@ -1,11 +1,11 @@
 {
-  "name": "path-operation",
+  "name": "redux-po",
   "version": "0.1.0",
   "description": "",
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/panzer-vor/path-operation.git"
+    "url": "https://github.com/panzer-vor/redux-po.git"
   },
   "main": "lib/index.js",
   "author": "<Yorke>",
@@ -51,8 +51,12 @@
   "devDependencies": {
     "@types/jest": "^24.0.15",
     "@types/node": "^10.11.0",
+    "@types/redux": "^3.6.0",
     "jest": "^24.8.0",
     "jest-config": "^24.8.0",
+    "path-operation": "^0.1.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0",
     "ts-jest": "^24.0.2",
     "ts-loader": "^6.2.1",
     "ts-node": "^8.5.4",
