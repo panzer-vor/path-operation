@@ -3,7 +3,7 @@
 
 # Usage
 ```js
-npm install redux-po
+npm install redux-po path-operation redux
 ```
 
 # Demo

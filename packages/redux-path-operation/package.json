@@ -1,6 +1,6 @@
 {
   "name": "redux-po",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "keywords": [],
   "repository": {
@@ -54,7 +54,7 @@
     "@types/redux": "^3.6.0",
     "jest": "^24.8.0",
     "jest-config": "^24.8.0",
-    "path-operation": "^0.1.1",
+    "path-operation": "^0.2.3",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
     "ts-jest": "^24.0.2",
