@@ -102,4 +102,10 @@ describe('path-operation testing', () => {
       }
     })
   })
+  test('path value should be cache', () => {
+    const path = Po(testState)
+    const pathAge: PathStaticInterface = path(['app', 'user', 'age'])
+    pathAge.getValue()
+    expect(pathAge.getValue()).toEqual(17)
+  })
 })
