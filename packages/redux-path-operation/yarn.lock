@@ -1497,9 +1497,9 @@ has@^1.0.1, has@^1.0.3:
     function-bind "^1.1.1"
 
 highlight.js@^9.0.0:
-  version "9.16.2"
-  resolved "https://registry.npmjs.org/highlight.js/-/highlight.js-9.16.2.tgz#68368d039ffe1c6211bcc07e483daf95de3e403e"
-  integrity sha512-feMUrVLZvjy0oC7FVJQcSQRqbBq9kwqnYE4+Kj9ZjbHh3g+BisiPgF49NyQbVLNdrL/qqZr3Ca9yOKwgn2i/tw==
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hosted-git-info@^2.1.4:
   version "2.8.5"
@@ -2826,10 +2826,10 @@ path-key@^2.0.0, path-key@^2.0.1:
   resolved "https://registry.npmjs.org/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
-path-operation@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/path-operation/-/path-operation-0.1.1.tgz#12f6d0cec4a6377fa30fe02fb6c971acaa3038ec"
-  integrity sha512-BHn1zIGZ2PkqSGoXKCk8G9zIhtONTHuOQCxs/7i+XGvXeg23hUSc8iht6cW2QGL+jLPwHl7iEehHR/7Vi8r4FQ==
+path-operation@^0.2.3:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/path-operation/-/path-operation-0.2.4.tgz#aec9724b3dc170b1c8f6729a8261fed6b5e9c54c"
+  integrity sha512-EmxuwrOJl8LEnzUohJeeW2R3qUWPew4KrFrlivO+xOGZ5PRuIonEijlEy3BAUXUXsRKRaj5BOmwR9p35MtFDUw==
 
 path-parse@^1.0.6:
   version "1.0.6"
