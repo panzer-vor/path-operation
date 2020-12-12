@@ -1563,9 +1563,9 @@ inherits@2, inherits@~2.0.3:
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
 ini@~1.3.0:
-  version "1.3.5"
-  resolved "https://registry.npmjs.org/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
-  integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
+  version "1.3.8"
+  resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.8.tgz#a29da425b48806f34767a4efce397269af28432c"
+  integrity sha512-JV/yugV2uzW5iMRSiZAyDtQd+nxtUnjeLt0acNdw98kKLrvuRVyB80tsREOE7yvGVgalhZ6RNXCmEHkUKBKxew==
 
 interpret@^1.0.0:
   version "1.2.0"
@@ -2826,10 +2826,10 @@ path-key@^2.0.0, path-key@^2.0.1:
   resolved "https://registry.npmjs.org/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
-path-operation@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/path-operation/-/path-operation-0.1.1.tgz#12f6d0cec4a6377fa30fe02fb6c971acaa3038ec"
-  integrity sha512-BHn1zIGZ2PkqSGoXKCk8G9zIhtONTHuOQCxs/7i+XGvXeg23hUSc8iht6cW2QGL+jLPwHl7iEehHR/7Vi8r4FQ==
+path-operation@^0.2.3:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/path-operation/-/path-operation-0.2.4.tgz#aec9724b3dc170b1c8f6729a8261fed6b5e9c54c"
+  integrity sha512-EmxuwrOJl8LEnzUohJeeW2R3qUWPew4KrFrlivO+xOGZ5PRuIonEijlEy3BAUXUXsRKRaj5BOmwR9p35MtFDUw==
 
 path-parse@^1.0.6:
   version "1.0.6"
