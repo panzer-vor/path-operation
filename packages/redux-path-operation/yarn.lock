@@ -2826,10 +2826,10 @@ path-key@^2.0.0, path-key@^2.0.1:
   resolved "https://registry.npmjs.org/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
-path-operation@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/path-operation/-/path-operation-0.1.1.tgz#12f6d0cec4a6377fa30fe02fb6c971acaa3038ec"
-  integrity sha512-BHn1zIGZ2PkqSGoXKCk8G9zIhtONTHuOQCxs/7i+XGvXeg23hUSc8iht6cW2QGL+jLPwHl7iEehHR/7Vi8r4FQ==
+path-operation@^0.2.3:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/path-operation/-/path-operation-0.2.4.tgz#aec9724b3dc170b1c8f6729a8261fed6b5e9c54c"
+  integrity sha512-EmxuwrOJl8LEnzUohJeeW2R3qUWPew4KrFrlivO+xOGZ5PRuIonEijlEy3BAUXUXsRKRaj5BOmwR9p35MtFDUw==
 
 path-parse@^1.0.6:
   version "1.0.6"
@@ -3938,9 +3938,9 @@ xml-name-validator@^3.0.0:
   integrity sha512-A5CUptxDsvxKJEU3yO6DuWBSJz/qizqzJKOMIfUJHETbBw/sFaDxgd6fxm1ewUaM0jZ444Fc5vC5ROYurg/4Pw==
 
 y18n@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.npmjs.org/y18n/-/y18n-4.0.0.tgz#95ef94f85ecc81d007c264e190a120f0a3c8566b"
-  integrity sha512-r9S/ZyXu/Xu9q1tYlpsLIsa3EeLXXk0VwlxqTcFRfg9EhMW+17kbt9G0NrgCmhGb5vT2hyhJZLfDGx+7+5Uj/w==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-4.0.1.tgz#8db2b83c31c5d75099bb890b23f3094891e247d4"
+  integrity sha512-wNcy4NvjMYL8gogWWYAO7ZFWFfHcbdbE57tZO8e4cbpj8tfUcwrwqSl3ad8HxpYWCdXcJUCeKKZS62Av1affwQ==
 
 yallist@^3.0.0, yallist@^3.0.3:
   version "3.1.1"
