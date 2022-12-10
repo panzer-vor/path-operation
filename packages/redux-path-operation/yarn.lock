@@ -2826,10 +2826,10 @@ path-key@^2.0.0, path-key@^2.0.1:
   resolved "https://registry.npmjs.org/path-key/-/path-key-2.0.1.tgz#411cadb574c5a140d3a4b1910d40d80cc9f40b40"
   integrity sha1-QRyttXTFoUDTpLGRDUDYDMn0C0A=
 
-path-operation@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/path-operation/-/path-operation-0.1.1.tgz#12f6d0cec4a6377fa30fe02fb6c971acaa3038ec"
-  integrity sha512-BHn1zIGZ2PkqSGoXKCk8G9zIhtONTHuOQCxs/7i+XGvXeg23hUSc8iht6cW2QGL+jLPwHl7iEehHR/7Vi8r4FQ==
+path-operation@^0.2.3:
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/path-operation/-/path-operation-0.2.4.tgz#aec9724b3dc170b1c8f6729a8261fed6b5e9c54c"
+  integrity sha512-EmxuwrOJl8LEnzUohJeeW2R3qUWPew4KrFrlivO+xOGZ5PRuIonEijlEy3BAUXUXsRKRaj5BOmwR9p35MtFDUw==
 
 path-parse@^1.0.6:
   version "1.0.6"
@@ -2949,9 +2949,9 @@ punycode@^2.1.0, punycode@^2.1.1:
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "https://registry.npmjs.org/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 rc@^1.2.7:
   version "1.2.8"
